@@ -1,0 +1,236 @@
+---------------------Initialization---------------------
+Doctor Lucky's Mansion: row 36 col 30, 21 rooms, 20 items.
+(0)Armory; (1)Billiard Room; (2)Carriage House; (3)Dining Hall; (4)Drawing Room; (5)Foyer; 
+(6)Green House; (7)Hedge Maze; (8)Kitchen; (9)Lancaster Room; (10)Library; 
+(11)Lilac Room; (12)Master Suite; (13)Nursery; (14)Parlor; (15)Piazza; 
+(16)Servants' Quarters; (17)Tennessee Room; (18)Trophy Room; (19)Wine Cellar; (20)Winter Garden; 
+Target: Doctor Lucky(health 5, in room 0).
+Pet: Fortune the Cat(in room 0).
+Number of turns: 50
+---------------------Create Players---------------------
+The number of players is limited to 10.
+Number of players controlled by human: 2
+Number of players controlled by computer: 0
+Create a player controlled by human.
+Name (without spaces): A
+Room (index): 19
+Create a player controlled by human.
+Name (without spaces): B
+Room (index): 2
+Players: 
+A (in (19)Wine Cellar)
+B (in (2)Carriage House)
+---------------------Start the Game---------------------
+In each turn, a player can: 
+M - Move to neighboring room, or
+P - Pick up an item in this room by giving the index of the item, or
+L - Look around to get the information of this room, or
+C - Move the cat of Dr.Lucky to a room and make the room invisible, or
+A - Attack Dr.Lucky if he is in the same room as you and no one see your attack.
+
+A (in (19)Wine Cellar)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(19)Wine Cellar
+[Players] A;
+[Items] Rat Poison; Piece of Rope;
+[Neighbors]
+(3)Dining Hall: [Players] /; [Items] /;
+(4)Drawing Room: [Players] /; [Items] Letter Opener;
+(8)Kitchen: [Players] /; [Items] Crepe Pan; Sharp Knife;
+Doctor Lucky moves to (1)Billiard Room
+
+B (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(2)Carriage House
+[Players] B;
+[Items] Chain Saw; Big Red Hammer;
+[Neighbors]
+(20)Winter Garden: [Players] /; [Items] /;
+Doctor Lucky moves to (2)Carriage House
+
+A (in (19)Wine Cellar)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 1
+A picked: Piece of Rope
+Doctor Lucky moves to (3)Dining Hall
+
+B (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+B picked: Chain Saw
+Doctor Lucky moves to (4)Drawing Room
+
+A (in (19)Wine Cellar)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+A picked: Rat Poison
+Doctor Lucky moves to (5)Foyer
+
+B (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+B picked: Big Red Hammer
+Doctor Lucky moves to (6)Green House
+
+A (in (19)Wine Cellar)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 8
+A (in (8)Kitchen)
+Doctor Lucky moves to (7)Hedge Maze
+
+B (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 20
+B (in (20)Winter Garden)
+Doctor Lucky moves to (8)Kitchen
+
+A (in (8)Kitchen)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(8)Kitchen
+[Players] A;
+[Items] Crepe Pan; Sharp Knife;
+[Neighbors]
+(3)Dining Hall: [Players] /; [Items] /;
+(14)Parlor: [Players] /; [Items] /;
+(19)Wine Cellar: [Players] /; [Items] /;
+Doctor Lucky is in this room!
+Doctor Lucky moves to (9)Lancaster Room
+
+B (in (20)Winter Garden)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(20)Winter Garden
+[Players] B;
+[Items]
+[Neighbors]
+(2)Carriage House: [Players] /; [Items] /;
+(15)Piazza: [Players] /; [Items] Civil War Cannon;
+Doctor Lucky moves to (10)Library
+
+A (in (8)Kitchen)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+A picked: Crepe Pan
+Doctor Lucky moves to (11)Lilac Room
+
+B (in (20)Winter Garden)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+No item in this room.
+Doctor Lucky moves to (12)Master Suite
+
+A (in (8)Kitchen)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+A picked: Sharp Knife
+Doctor Lucky moves to (13)Nursery
+
+B (in (20)Winter Garden)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 15
+B (in (15)Piazza)
+Doctor Lucky moves to (14)Parlor
+
+A (in (8)Kitchen)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 3
+A (in (3)Dining Hall)
+Doctor Lucky moves to (15)Piazza
+
+B (in (15)Piazza)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(15)Piazza
+[Players] B;
+[Items] Civil War Cannon;
+[Neighbors]
+(5)Foyer: [Players] /; [Items] /;
+(7)Hedge Maze: [Players] /; [Items] Loud Noise;
+(20)Winter Garden: [Players] /; [Items] /;
+Doctor Lucky is in this room!
+Doctor Lucky moves to (16)Servants' Quarters
+
+A (in (3)Dining Hall)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 0
+A (in (0)Armory)
+Doctor Lucky moves to (17)Tennessee Room
+
+B (in (15)Piazza)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+B picked: Civil War Cannon
+Doctor Lucky moves to (18)Trophy Room
+
+A (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+A picked: Revolver
+Doctor Lucky moves to (19)Wine Cellar
+
+B (in (15)Piazza)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 5
+B (in (5)Foyer)
+Doctor Lucky moves to (20)Winter Garden
+
+A (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 1
+A (in (1)Billiard Room)
+Doctor Lucky moves to (0)Armory
+
+B (in (5)Foyer)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(5)Foyer
+[Players] B;
+[Items]
+[Neighbors]
+(4)Drawing Room: [Players] /; [Items] Letter Opener;
+(15)Piazza: [Players] /; [Items] /;
+Doctor Lucky moves to (1)Billiard Room
+
+A (in (1)Billiard Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Your bag is full and cannot hold any more items.
+Doctor Lucky moves to (2)Carriage House
+
+B (in (5)Foyer)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 4
+B (in (4)Drawing Room)
+Doctor Lucky moves to (3)Dining Hall
+
+A (in (1)Billiard Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(1)Billiard Room
+[Players] A;
+[Items] Billiard Cue;
+[Neighbors]
+(3)Dining Hall: [Players] /; [Items] /;
+(18)Trophy Room: [Players] /; [Items] Duck Decoy; Monkey Hand;
+Doctor Lucky moves to (4)Drawing Room
+
+B (in (4)Drawing Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(4)Drawing Room
+[Players] B;
+[Items] Letter Opener;
+[Neighbors]
+(3)Dining Hall: [Players] /; [Items] /;
+(5)Foyer: [Players] /; [Items] /;
+(19)Wine Cellar: [Players] /; [Items] /;
+Doctor Lucky is in this room!
+Doctor Lucky moves to (5)Foyer
+
+A (in (1)Billiard Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 3
+A (in (3)Dining Hall)
+Doctor Lucky moves to (6)Green House
+
+B (in (4)Drawing Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 3
+B (in (3)Dining Hall)
+Doctor Lucky moves to (7)Hedge Maze
+
+---------------------Game is Over! ---------------------
+Oh no! Doctor Lucky has escaped. His remaining health: 5.

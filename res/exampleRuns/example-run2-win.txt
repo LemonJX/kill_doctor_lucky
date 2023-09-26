@@ -1,0 +1,196 @@
+---------------------Initialization---------------------
+Doctor Lucky's Mansion: row 36 col 30, 21 rooms, 20 items.
+(0)Armory; (1)Billiard Room; (2)Carriage House; (3)Dining Hall; (4)Drawing Room; (5)Foyer; 
+(6)Green House; (7)Hedge Maze; (8)Kitchen; (9)Lancaster Room; (10)Library; 
+(11)Lilac Room; (12)Master Suite; (13)Nursery; (14)Parlor; (15)Piazza; 
+(16)Servants' Quarters; (17)Tennessee Room; (18)Trophy Room; (19)Wine Cellar; (20)Winter Garden; 
+Target: Doctor Lucky(health 5, in room 0).
+Pet: Fortune the Cat(in room 0).
+Number of turns: 50
+---------------------Create Players---------------------
+The number of players is limited to 10.
+Number of players controlled by human: 3
+Number of players controlled by computer: 0
+Create a player controlled by human.
+Name (without spaces): A
+Room (index): 0
+Create a player controlled by human.
+Name (without spaces): B
+Room (index): 1
+Create a player controlled by human.
+Name (without spaces): C
+Room (index): 2
+Players: 
+A (in (0)Armory)
+B (in (1)Billiard Room)
+C (in (2)Carriage House)
+---------------------Start the Game---------------------
+In each turn, a player can: 
+M - Move to neighboring room, or
+P - Pick up an item in this room by giving the index of the item, or
+L - Look around to get the information of this room, or
+C - Move the cat of Dr.Lucky to a room and make the room invisible, or
+A - Attack Dr.Lucky if he is in the same room as you and no one see your attack.
+
+A (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: A
+[Successful attack] Target -1, current health 4.
+Doctor Lucky moves to (1)Billiard Room
+
+B (in (1)Billiard Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: A
+[Invalid attack] Someone witnessed your attack.
+Doctor Lucky moves to (2)Carriage House
+
+C (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: A
+[Successful attack] Target -1, current health 3.
+Doctor Lucky moves to (3)Dining Hall
+
+A (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+A picked: Revolver
+Doctor Lucky moves to (4)Drawing Room
+
+B (in (1)Billiard Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+B picked: Billiard Cue
+Doctor Lucky moves to (5)Foyer
+
+C (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+C picked: Chain Saw
+Doctor Lucky moves to (6)Green House
+
+A (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: C
+Enter a room (index) to move the pet: 3
+Fortune the Cat is in (3)Dining Hall.
+Doctor Lucky moves to (7)Hedge Maze
+
+B (in (1)Billiard Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 0
+B (in (0)Armory)
+Doctor Lucky moves to (8)Kitchen
+
+C (in (2)Carriage House)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 20
+C (in (20)Winter Garden)
+Doctor Lucky moves to (9)Lancaster Room
+
+A (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 3
+A (in (3)Dining Hall)
+Doctor Lucky moves to (10)Library
+
+B (in (0)Armory)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 4
+B (in (4)Drawing Room)
+Doctor Lucky moves to (11)Lilac Room
+
+C (in (20)Winter Garden)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 15
+C (in (15)Piazza)
+Doctor Lucky moves to (12)Master Suite
+
+A (in (3)Dining Hall)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: L
+(3)Dining Hall
+[Players] A;
+[Items]
+[Neighbors]
+(0)Armory: [Players] /; [Items] /;
+(1)Billiard Room: [Players] /; [Items] /;
+(4)Drawing Room: [Players] B; [Items] Letter Opener;
+(8)Kitchen: [Players] /; [Items] Crepe Pan; Sharp Knife;
+(14)Parlor: [Players] /; [Items] /;
+(17)Tennessee Room: [Players] /; [Items] /;
+(18)Trophy Room: [Players] /; [Items] Duck Decoy; Monkey Hand;
+(19)Wine Cellar: [Players] /; [Items] Rat Poison; Piece of Rope;
+Fortune the Cat is in this room!
+Doctor Lucky moves to (13)Nursery
+
+B (in (4)Drawing Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+B picked: Letter Opener
+Doctor Lucky moves to (14)Parlor
+
+C (in (15)Piazza)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+C picked: Civil War Cannon
+Doctor Lucky moves to (15)Piazza
+
+A (in (3)Dining Hall)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 18
+A (in (18)Trophy Room)
+Doctor Lucky moves to (16)Servants' Quarters
+
+B (in (4)Drawing Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 19
+B (in (19)Wine Cellar)
+Doctor Lucky moves to (17)Tennessee Room
+
+C (in (15)Piazza)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 5
+C (in (5)Foyer)
+Doctor Lucky moves to (18)Trophy Room
+
+A (in (18)Trophy Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: P
+Pick an item in this room. Enter the index of item (start from 0): 0
+A picked: Duck Decoy
+Doctor Lucky moves to (19)Wine Cellar
+
+B (in (19)Wine Cellar)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: A
+Chose one of your item to attack:  Billiard Cue; Letter Opener;
+Enter an item (index): 0
+[Successful attack] Target -2, current health 1.
+Doctor Lucky moves to (20)Winter Garden
+
+C (in (5)Foyer)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 4
+C (in (4)Drawing Room)
+Doctor Lucky moves to (0)Armory
+
+A (in (18)Trophy Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 3
+A (in (3)Dining Hall)
+Doctor Lucky moves to (1)Billiard Room
+
+B (in (19)Wine Cellar)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 4
+B (in (4)Drawing Room)
+Doctor Lucky moves to (2)Carriage House
+
+C (in (4)Drawing Room)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: M
+Enter a neigboring room (index) to move: 19
+C (in (19)Wine Cellar)
+Doctor Lucky moves to (3)Dining Hall
+
+A (in (3)Dining Hall)
+Move, pick, look around, move the cat, or attack? Enter M/P/L/C/A: A
+Chose one of your item to attack:  Revolver; Duck Decoy;
+Enter an item (index): 0
+[Successful attack] Target -3, current health -2.
+Doctor Lucky moves to (4)Drawing Room
+
+---------------------Game is Over! ---------------------
+Congratulations! A kills Doctor Lucky and wins the game.
